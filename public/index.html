@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jokebook </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <h1>Welcome to the JokeBook :) </h1>
+    <div id="randomJoke">
+        <button id="randomJoke">Show Random Joke</button>
+        <p id="displayJoke">
+
+        </p>
+    </div>
+
+    <div id="jokeCategories">
+        <h2> Here are the categories for our joke book so far! </h2>
+        <ul id="categoriesList">
+            <li>Funny Joke</li>
+            <li>Lame Joke</li>
+        </ul>
+    </div>
+
+    <div id="addJoke">
+        <h2>Wish to add a new joke? Go ahead! </h2>
+        <form id="newJokeInput">
+            <input type="text" id="joke" placeholder="Joke" required>
+            <input type="text" id="response" placeholder="Response" required>
+
+            <select id="selectCategory">
+                <option value="funnyJoke">Funny Joke</option>
+                <option value="lameJoke">Lame Joke</option>
+            </select>
+            <button type="submit">Add your Joke!</button>
+        </form>
+    </div>
+
+</body>
+</html>
