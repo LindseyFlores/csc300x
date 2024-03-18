@@ -10,9 +10,11 @@ let categories = ['funnyJoke', 'lameJoke'];
 // Array of jokes for each category
 let funnyJoke = [
   {joke: 'What would the Terminator be called in his retirement?', response: 'The Exterminator' },
+  {"joke":"Why don't skeletons fight each other?","response":"They don't have the guts."}
 ];
 let lameJoke = [
   { joke: 'Why did Iron Man apply for a job at the bakery?', response: 'Because he heard they need a hero with a lot of dough'},
+  {joke: 'Why did the chicken cross the road?', response: 'I dont know' }
 ];
 
 // GET endpoint for jokebook categories
